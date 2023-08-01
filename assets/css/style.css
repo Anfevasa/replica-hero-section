@@ -1,0 +1,200 @@
+*{
+    margin:0;
+}
+
+.header{
+    overflow: hidden;
+    position: absolute;
+    width: 95vw;
+    height: 4em;
+    margin: 1em;
+    z-index: 10;
+    /* border: 1px solid yellow; */
+}
+
+.header__logo{
+    height: 4em;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 1em;
+    display: flex;
+    align-items: center;
+    /* top: 1em; */
+}
+
+.header__logo-S{
+    font-weight: 900;
+    background-color: #21383E;
+    color: #DDE1E2;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center
+}
+
+.header__logo-name{
+    margin: 0.2rem;
+    font-weight: 600;
+    color: #21383E;
+}
+
+
+.header__nav{
+    /* border: 1px solid blue; */
+    position: absolute;
+    width: fit-content;
+    top: 1.5em;
+    right: 40%;
+
+}
+
+.header__nav button{
+    background: none;
+    border: none;
+    margin: 0em 1em;
+    color:#21383E;
+}
+.header__nav button:hover{
+    text-decoration: underline;
+}
+
+.header__div{
+    /* border: 1px solid rgb(0, 255, 17); */
+    position: absolute;
+    width: fit-content;
+    right:1em;
+    top: 1em;
+}
+
+.header__div-loginButton{
+    width: 6rem;
+    background-color: white;
+    height: 2rem;
+    border: 0;
+    border-radius: 1rem;
+    color: #305F63;
+    font-weight: 700;
+}
+.header__div-loginButton:hover{
+    background-color: #305F63;
+    color: white;
+}
+
+.header__div-signupAnchor{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+.header__div-signupAnchor:hover{
+    text-decoration: underline;
+
+}
+
+
+
+/* Hero section */
+
+.hero-section{
+    background-color: #DDE1E2;
+    height: 65vh;
+    border-radius: 1rem;
+    margin: 0.7em;
+    position: relative;
+}
+
+.hero-section__title{
+    /* border: 1px solid blue; */
+    width: 35%;
+    position: relative;
+    top: 6em;
+    left: 8em;   
+}
+
+.hero-section__title h1{
+    font-size: 3.2em;
+    color: #21383E;
+}
+.hero-section__title p{
+    margin: 2rem 0;
+    color: rgb(80, 80, 80);
+}
+
+.hero-section__email{
+    /* border: 1px solid red; */
+    width: 40rem;
+    position: relative;
+    left: 8em;   
+    top: 5.5em;    
+    background-color: white;
+    height: 3.4em;
+    border-radius: 1.7em;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+}
+
+.hero-section__email label{
+    position: absolute;
+    left: 2.5em;
+    color: rgb(155, 154, 154);
+    top: 0.8em;
+    z-index: 30;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.hero-section__email input{
+    position: absolute;
+    background-color: none;
+    top: 0.2em;
+    left: 0.2em;
+    border-radius: 1.6em;
+    height: 3.2em;
+    width: 40em;
+    border: none;
+}
+.hero-section__email input:hover{
+    border: 1px dashed red;    
+}
+
+.hero-section__email button{
+    position: absolute;
+
+    background-color: #305F63;
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 2.4rem;
+    right: 0.5em;
+    top: 0.5em;
+    border-radius: 1.2rem;
+}
+
+/* main */
+
+.main{
+    border: 1px solid red;
+    margin: 0em 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.main div{
+    border: 1px dashed blue;
+    
+}
+
+/* weekly popular */
+
+.weekly-popular{
+    width: 25rem;
+}
+
+.weekly-popular a{
+    height: 3rem;
+    display: flex;
+}
+
+.weekly-popular a div{
+}
