@@ -1,5 +1,6 @@
 *{
     margin:0;
+    /* font-family: "Montserrat"; */
 }
 
 .header{
@@ -174,15 +175,14 @@
 /* main */
 
 .main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0em 1em;
     padding-top: 1em;
     display: flex;
     justify-content: space-between;
 }
 .main div{
-    border: 1px dashed blue;
-    
+    /* border: 1px dashed blue; */
 }
 
 /* weekly popular */
@@ -191,10 +191,49 @@
     width: 25rem;
 }
 
+.weekly-popular h2{
+    color: #21383E;
+}
+
 .weekly-popular a{
-    height: 3rem;
     display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: #21383E;
+
+    /* border: 1px dashed blue; */
+}
+
+.weekly-popular a span{
+    /* Círculo */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #305F63;
+    /* Espaciado */
+    margin: 1rem;
+    /* Centrar texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ajustar tamaño de letra */
+    font-size: 0.8rem;
+
 }
 
 .weekly-popular a div{
+    /* border: 1px dashed rgb(255, 0, 221); */
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    justify-content: space-between;
+}
+
+.weekly-popular a div h4{
+    font-size: 0.8rem;
+}
+.weekly-popular a div p{
+    font-size: 0.6rem;
+    /* border: 1px dashed rgb(255, 0, 221); */
 }
